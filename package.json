@@ -1,0 +1,27 @@
+{
+  "name": "fwd-hosting",
+  "version": "1.0.0",
+  "description": "**FWD3rd project**",
+  "main": "index.js",
+  "scripts": {
+    "front:install": "cd udagram-frontend && npm install -f",
+    "front:build": "cd udagram-frontend && npm run build",
+    "front:deploy": "cd udagram-frontend && npm run deploy",
+    "front:test": "cd udagram-frontend && npm run test",
+    "back:install": "cd udagram-api && npm install -f",
+    "back:build": "cd udagram-api && npm run build",
+    "back:deploy": "cd udagram-api && npm run deploy",
+    "back:test": "cd udagram-api && npm run test",
+    "deploy": "npm run back:deploy && npm run front:deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+"
+  },
+  "keywords": [],
+  "author": "Kerolos",
+  "license": "ISC",
+  "directories": {
+    "doc": "docs"
+  }
+}
