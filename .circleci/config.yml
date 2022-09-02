@@ -9,7 +9,6 @@ jobs:
       - image: cimg/base:stable
     steps:
       - node/install
-          node-version: '16.2' 
       - checkout
       - aws-cli/setup
       - aws-elastic-beanstalk/setup
