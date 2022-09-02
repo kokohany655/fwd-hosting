@@ -10,8 +10,8 @@ jobs:
     steps:
       - node/install
       - checkout
-      - aws-cli/setup
       - eb/setup
+      - aws-cli/setup
       - run:
           name: "Install back end dependencies"
           command: "npm run back:install"
