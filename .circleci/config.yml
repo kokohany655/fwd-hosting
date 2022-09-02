@@ -10,7 +10,6 @@ jobs:
     steps:
       - node/install
       - checkout
-      - eb/setup
       - aws-cli/setup
       - run:
           name: "Install back end dependencies"
