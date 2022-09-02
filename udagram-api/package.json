@@ -4,7 +4,7 @@
   "main": "src/server.ts",
   "scripts": {
     "build": "npm run clean && tsc && cp -rf src/config www/config && cp .npmrc www/.npmrc && cp package.json www/package.json && cd www && zip -r Archive.zip . && cd ..",
-    "deploy": "chmod +x bin/deploy.sh && bin/deploy.sh",
+    "deploy": "chmod +x ./bin/deploy.sh && ./bin/deploy.sh",
     "start": "node ./www/server.js",
     "tsc": "npx tsc",
     "dev": "nodemon ./src/server.ts",
