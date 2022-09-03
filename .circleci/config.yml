@@ -25,9 +25,6 @@ jobs:
           name: "Install front end dependencies"
           command: "npm run front:install"
       - run:
-          name: "test front end"
-          command: "npm run front:test"
-      - run:
           name: "Build front end"
           command: "npm run front:build"
       - run:
