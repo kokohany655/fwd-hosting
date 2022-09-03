@@ -6,7 +6,7 @@
 
 In this project you will learn how to take a newly developed Full-Stack application built for a retailer and deploy it to a cloud service provider so that it is available to customers.
 
-[Live Preview](http://fwd-udagram-app.s3-website-us-east-1.amazonaws.com/)
+[Live Preview](http://fwd-udacity-202215.s3-website-us-east-1.amazonaws.com)
 
 ### Dependencies
 
